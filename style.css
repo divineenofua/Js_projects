@@ -1,6 +1,21 @@
- .nav-content{
+*{
+   text-decoration: none;
+   list-style: none;
+}
+
+.nav-content{
    display: flex;
  }
  .navbar{
-   background: purple;
+   
+   margin: 0;
  }
+ .nav-list ul li{
+    text-decoration: none;
+    list-style: none;
+ }
+.navbar .nav-content .nav-list {
+  text-decoration: none;
+  color: green;
+  background: blue;
+}
